@@ -162,6 +162,6 @@ class DataIngestion:
 if __name__ == "__main__":
     ingestion = DataIngestion()
     X_train, X_test, y_train, y_test = ingestion.run_pipeline()
-    print(f"\nPipeline completed!")
+    print("\nPipeline completed!")
     print(f"Training samples: {len(X_train)}")
     print(f"Test samples: {len(X_test)}")

@@ -184,5 +184,5 @@ if __name__ == "__main__":
     evaluator = ModelEvaluation()
     results = evaluator.run_pipeline(y_test, y_pred)
 
-    print(f"\nModel evaluation completed!")
+    print("\nModel evaluation completed!")
     print(f"Accuracy: {results['metrics']['accuracy']:.4f}")

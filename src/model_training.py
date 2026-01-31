@@ -196,6 +196,6 @@ if __name__ == "__main__":
     trainer = ModelTraining()
     cv_results = trainer.run_pipeline(X_train, y_train)
 
-    print(f"\nModel training completed!")
+    print("\nModel training completed!")
     print(f"Cross-validation accuracy: {cv_results['mean_score']:.4f} "
           f"(+/- {cv_results['std_score']:.4f})")

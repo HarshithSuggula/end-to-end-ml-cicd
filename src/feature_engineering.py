@@ -163,6 +163,6 @@ if __name__ == "__main__":
     fe = FeatureEngineering()
     X_train_transformed, X_test_transformed = fe.run_pipeline(X_train, X_test)
 
-    print(f"\nFeature engineering completed!")
+    print("\nFeature engineering completed!")
     print(f"Training features shape: {X_train_transformed.shape}")
     print(f"Test features shape: {X_test_transformed.shape}")
